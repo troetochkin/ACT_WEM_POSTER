@@ -1,0 +1,289 @@
+@font-face {
+	font-family: 'Involve';
+	src: url('../fonts/Involve-Regular.ttf') format('truetype');
+	font-style: Light;
+	font-weight: Light;
+}
+
+@font-face {
+	font-family: 'Serifqo 4F';
+	src: url('../fonts/Serifiqo\ 4F\ Free\ Capitals.otf') format('truetype');
+	font-style: Light;
+	font-weight: Light;
+}
+* {
+	box-sizing: border-box;
+}
+html,
+body {
+	min-height: 100%;
+}
+
+body {
+	max-width: 1920px;
+	background-color: #f8f8ff;
+	display: block;
+	margin: 0 auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.first_block {
+	position: relative;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: calc((1800 / 1920) * 100%);
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+.logo_header {
+	width: 100%;
+}
+
+.fly_typography_header {
+	width: 50%;
+	animation: fly1 10s infinite linear;
+}
+
+.second_block {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.medicaments_and_typography {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	overflow: hidden;
+}
+
+.only_medicaments {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	overflow: hidden;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.pills {
+	width: 200%;
+}
+
+.medicaments_1 {
+	width: 100%;
+	display: flex;
+	animation: scroll_pill_1 2s linear infinite;
+}
+
+/* @keyframes scroll_pill_1 {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+} */
+
+.medicaments_2 {
+	width: 100%;
+	display: flex;
+	animation: scroll_pill_2 2s linear infinite;
+}
+
+/* @keyframes scroll_pill_2 {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(100%);
+	}
+} */
+
+.medicaments_3 {
+	width: 100%;
+	display: flex;
+	animation: scroll_pill_3 s linear infinite;
+}
+
+/* @keyframes scroll_pill_3 {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+} */
+
+.first_typography {
+	position: relative;
+	overflow: hidden;
+	align-content: center;
+}
+
+.reality_typography {
+	width: 300%;
+	display: flex;
+	animation: reality_typography_animation 2s linear infinite;
+}
+
+/* @keyframes reality_typography_animation {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+} */
+
+.face_illusion {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	overflow: hidden;
+}
+
+.part_of_illusion {
+	width: 100%;
+	overflow: hidden;
+}
+.medcases {
+	overflow: hidden;
+	width: 100%;
+	padding-left: 1%;
+	padding-right: 1%;
+	/* animation: scroll 3s linear infinite; */
+}
+
+.resina_medcase {
+	width: 100%;
+}
+
+/* @keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(100%);
+	}
+} */
+
+.forth_block {
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.stamp_and_typography {
+	position: relative;
+	display: grid;
+	grid-template-rows: 3fr 1fr;
+	overflow: hidden;
+}
+
+.second_background_typogrphy {
+	position: relative;
+	display: grid;
+	overflow: hidden;
+	grid-template-rows: 1fr 1fr 1fr;
+	padding-top: 5%;
+}
+.second_front_typography {
+	position: relative;
+}
+
+/* .letter_A {
+	position: relative;
+	top: 26px;
+	left: 59px;
+}
+
+.letter_C {
+	position: relative;
+	top: 455px;
+	left: 371px;
+}
+
+.letter_T {
+	position: relative;
+	top: 226px;
+	left: 469px;
+} */
+
+.pop_medicine {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	place-items: center;
+}
+
+.glister_1 {
+	width: 65%;
+}
+
+.back_text {
+	color: transparent;
+	-webkit-text-stroke: 1px rgba(38, 38, 150, 1);
+	text-stroke: 1px rgba(38, 38, 150, 1);
+	font-family: 'Serifiqo 4F';
+	font-size: clamp(135px, 36vw, 400px);
+	font-style: normal;
+	font-weight: 400;
+	line-height: 55%;
+	letter-spacing: -38px;
+}
+
+.stamp {
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+	z-index: -4;
+	animation: steps(4) 3s linear infinite;
+}
+
+.resina_stamp {
+	width: 200%;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	33% {
+		transform: translateX(0);
+	}
+	66% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+.fifth_block {
+	position: relative;
+}
+
+.futer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-left: 1%;
+	padding-right: 1%;
+	width: 100%;
+	color: #f8f8ff;
+	font-family: Involve;
+	font-size: clamp(10px, 2vw, 40px);
+	font-style: normal;
+	font-weight: 400;
+	line-height: 100%;
+	background-color: #262696;
+}
+
+.curator {
+	text-align: center;
+}
+
+.group {
+	text-align: right;
+}
